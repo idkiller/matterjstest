@@ -1,0 +1,20 @@
+{
+    "name": "matter-js-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack serve",
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.16.0",
+        "babel-loader": "^8.2.3",
+        "html-webpack-plugin": "^5.5.0",
+        "webpack": "^5.64.1",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.5.0"
+    },
+    "dependencies": {
+        "matter-js": "^0.17.1"
+    }
+}
